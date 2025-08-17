@@ -1,0 +1,13 @@
+<section class="article-grid-images">
+  {% if article.metafields.custom.image_selector_2 != blank %}
+  <div class="article-grid-images">
+    {% for image in article.metafields.custom.image_selector_2.value %}
+    <img 
+    src="{{ image | image_url }}" 
+    alt="{{ article.title }}" 
+    loading="lazy" 
+    >
+    {% endfor %}
+    </div>
+  {% endif %}
+</section>

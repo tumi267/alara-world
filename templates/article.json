@@ -1,0 +1,62 @@
+{"sections":
+
+    {
+        "hero": {
+            "type": "hero",
+            "settings": {
+              "enable_indicatore": true,
+              "custom_class": "blog_text_large",
+              "color_scheme": "scheme-8f39099c-f038-4b21-aa55-f922975df57c",
+              "layout": "collage",
+              "show_image": true,
+              "image_height": "medium",
+              "show_date": true,
+              "show_author": false,
+              "padding_top": 36,
+              "padding_bottom": 36
+            }
+          },
+          "hero_title": {
+            "type": "hero-title",
+            "blocks": {
+              "heading_3gePTG": {
+                "type": "heading",
+                "settings": {
+                  "heading": "Celebrate our Beloved African Love and African Union"
+                }
+              }
+              }
+            },
+        "main":
+        {"type":"main-article",
+        "blocks":{
+            "featured_image":{
+                "type":"featured_image",
+                "settings":{
+                    "image_height":"adapt"
+                    }}
+                    ,"title":
+                    {"type":"title",
+                    "settings":{"blog_show_date":true,
+                    "blog_show_author":false
+                    }},
+                   
+                    "content":{"type":"content","settings":{}}
+                },
+                    "block_order":["featured_image",
+                    "title",
+                    
+                    "content"],
+                    "settings":{}
+        }
+    },
+                    
+                    "order":["hero","hero-title","main"]
+                }
+
+
+
+
+
+
+

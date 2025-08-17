@@ -1,0 +1,4 @@
+{% if template.name == 'collection' %}
+{%  else %}
+Cart
+{% endif %}

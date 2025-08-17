@@ -1,0 +1,16 @@
+<section class="article-grid-images">
+
+  {% if article.metafields.custom.single_image != blank %}
+  {%assign image = article.metafields.custom.single_image.value%}
+  <div class="article-single-image">
+
+    <img 
+    class='article-single-image-content'
+    src="{{ image | image_url }}" 
+    alt="{{ article.title }}" 
+    loading="lazy" 
+    >
+
+    </div>
+  {% endif %}
+</section>

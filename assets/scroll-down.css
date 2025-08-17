@@ -1,0 +1,172 @@
+.mobile--only.slick-slider-wrapper{
+  display: none;
+}
+
+ @media (max-width: 768px) {
+   
+    .desktop-only.slick-slider-wrapper {
+      display: none;
+    }
+   .no-swipe-temp .slick-slider-wrapper {
+  pointer-events: none;
+}
+/* Make sure slides are initially hidden */
+.slick-slide {
+  transition: opacity 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.slick-slide.fade-in {
+  opacity: 1 !important; 
+  z-index: 1;
+}
+
+.slick-slide.full-opacity {
+  opacity: 1 !important;
+}
+
+
+
+
+    .mobile--only.slick-slider-wrapper {
+      display: block !important;
+    }
+   /* .shopify-section-group-footer-group {
+    display: none !important;
+} */
+  .mobile--only .shopify-section-group-footer-group {
+    display: block !important;
+}
+  }
+
+.slick-slider-wrapper .slick-slide {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  transition: transform 0.7s ease-in-out;
+}
+
+.slick-slider-wrapper .fade-in {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+.slick-slider-wrapper .fade-out {
+  opacity: 0.4;
+  transition: opacity 0.4s ease-out;
+}
+
+.slick-slider-wrapper .slick-slide {
+  transition: opacity 0.5s ease; /* smooth fade */
+  opacity: 1;
+}
+
+.slick-slider-wrapper .slick-slide.fade-out {
+  opacity: 0.7;
+}
+
+.slick-slider-wrapper .slick-slide.fade-in {
+  opacity: 1;
+}
+
+.scroll--down-indicator .content {
+    width: 100%;
+    position: relative;
+    top: 75%;
+}
+
+.scroll--down-indicator .scrollIndicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 1;
+}
+.scroll--down-indicator.content {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+.scroll--down-indicator .scrollIndicator i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyMCAyMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjAgMjA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxnPg0KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEuMiwxNC44bDcuMy03LjNjMC42LTAuNiwwLjYtMS44LDAtMi40cy0xLjgtMC42LTIuNCwwTDEwLDExLjJMMy45LDUuMWMtMC42LTAuNi0xLjgtMC42LTIuNCwwDQoJCQlzLTAuNiwxLjgsMCwyLjRsNy4zLDcuM0M5LjUsMTUuNSwxMC41LDE1LjUsMTEuMiwxNC44eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K) no-repeat center center var(--theme-color);
+    background-size: 12px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 100;
+    left: 0;
+    top: 10px;
+}
+.scroll--down-indicator .scrollIndicator:before, .scroll--down-indicator .scrollIndicator:after {
+    content: "";
+    top: 0;
+    left: -10px;
+    background-color: #ff0c01;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: absolute;
+    opacity: 0;
+}
+.scroll--down-indicator .scrollIndicator:before {
+    -webkit-animation: jumper 1.8s 0.33333s ease-out infinite;
+    animation: jumper 1.8s 0.66666s ease-out infinite;
+}
+
+.scroll--down-indicator .scrollIndicator:after {
+    -webkit-animation: jumper 1.8s 0.66666s ease-out infinite;
+    animation: jumper 1.8s 0.66666s ease-out infinite;
+}
+.scroll--down-indicator .scrollIndicator:before,
+.scroll--down-indicator .scrollIndicator:after {
+    animation-name: jumper;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+}
+
+.scroll--down-indicator .scrollIndicator:before {
+    animation-delay: 0.333s;
+}
+
+.scroll--down-indicator .scrollIndicator:after {
+    animation-delay: 0.666s;
+}
+@-webkit-keyframes jumper {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes jumper {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.hidden-important {
+  display: none ;
+}

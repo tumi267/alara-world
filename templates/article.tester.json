@@ -1,0 +1,85 @@
+{"sections":
+
+    {
+          
+        "main":
+        {"type":"main-article",
+        "blocks":{
+            "featured_image":{
+                "type":"featured_image",
+                "settings":{
+                    "image_height":"adapt"
+                    }}
+                    ,"title":
+                    {"type":"title",
+                    "settings":{"blog_show_date":false,
+                    "blog_show_author":false
+                    }},
+                   
+                    "content":{"type":"content","settings":{
+
+                    }}
+                },
+                    "block_order":["featured_image",
+                    "title",
+                    
+                    "content"],
+                    "settings":{}
+        },
+        "hero":{
+          "type":"hero"
+        },
+        "featured-collection": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+              "collection": "african-love",
+              "products_to_show": 4,
+              "title": "",
+              "heading_size": "h1",
+              "description": "",
+              "show_description": false,
+              "description_style": "body",
+              "columns_desktop": 4,
+              "enable_desktop_slider": false,
+              "full_width": false,
+              "show_view_all": true,
+              "view_all_style": "solid",
+              "color_scheme": "scheme-2e24632c-1f06-4b38-92ad-245b7befaa23",
+              "image_ratio": "adapt",
+              "image_shape": "default",
+              "show_secondary_image": false,
+              "show_vendor": false,
+              "show_rating": false,
+              "quick_add": "none",
+              "columns_mobile": "2",
+              "swipe_on_mobile": false,
+              "padding_top": 60,
+              "padding_bottom": 60
+            }
+          },"atricle-image-selector":{
+            "type":"atricle-image-selector"
+        },"atricle-single-image-selector":{
+            "type":"atricle-single-image-selector"
+        },"atricle-rich-text-one":{
+            "type":"atricle-rich-text-one"
+        },"article-image-selector-two":{
+            "type":"article-image-selector-two"
+        },"article-rich-text-two":{
+            "type":"article-rich-text-two"
+        },"article-signle-image-two":{
+        "type":"article-signle-image-two"
+        }
+    },
+                    
+    "order":["hero",
+    "featured-collection",
+    "main",
+    "atricle-image-selector",
+    "atricle-single-image-selector",
+    "atricle-rich-text-one",
+    "article-image-selector-two",
+    "article-signle-image-two",
+    "article-rich-text-two"
+    ]
+    }

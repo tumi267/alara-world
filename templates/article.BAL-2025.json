@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-BAL-2025",
+      "settings": {
+        "enable_indicatore": true,
+        "custom_class": "blog_text_large",
+        "color_scheme": "scheme-8f39099c-f038-4b21-aa55-f922975df57c",
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "hero_section_T6QWxh": {
+      "type": "hero-section",
+      "blocks": {
+        "heading_aEbLJe": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR"
+          }
+        },
+        "heading_xGBfNh": {
+          "type": "heading",
+          "settings": {
+            "heading": "STORY"
+          }
+        },
+        "heading_M4LRkF": {
+          "type": "heading",
+          "settings": {
+            "heading": "FOR"
+          }
+        },
+        "heading_kQFMAH": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE"
+          }
+        },
+        "heading_GnHEVD": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASKETBALL"
+          }
+        },
+        "heading_NRhKEw": {
+          "type": "heading",
+          "settings": {
+            "heading": "AFRICA"
+          }
+        },
+        "heading_MCN89h": {
+          "type": "heading",
+          "settings": {
+            "heading": "LEAGUE"
+          }
+        },
+        "heading_AAAQm3": {
+          "type": "heading",
+          "settings": {
+            "heading": "FINALS"
+          }
+        },
+        "heading_Y8WbDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "2025"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aEbLJe",
+        "heading_xGBfNh",
+        "heading_M4LRkF",
+        "heading_kQFMAH",
+        "heading_GnHEVD",
+        "heading_NRhKEw",
+        "heading_MCN89h",
+        "heading_AAAQm3",
+        "heading_Y8WbDF"
+      ],
+      "disabled": true,
+      "name": "Hero banner",
+      "settings": {
+        "enable_indicatore": true,
+        "custom_class": "blog_text_large",
+        "image": "shopify://shop_images/Rectangle_2.png",
+        "color_scheme": "scheme-8f39099c-f038-4b21-aa55-f922975df57c"
+      }
+    },
+    "featured_collection_Gx7p3J": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "bal-25",
+        "products_to_show": 4,
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-fdd3bfd4-6c4f-4e95-8a6d-a18db543683b",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_jj78AN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RAUdgK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.<br/><br/>A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RAUdgK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "custom_class": "wandering_body_text",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-fdd3bfd4-6c4f-4e95-8a6d-a18db543683b",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_pEQPB9": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_dJUb79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BAL_MERCH-25_a415de3f-f413-4e40-99cd-8adfe61f408d_1200x_1_4.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_dJUb79"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "custom_class": "address_blog_section",
+        "image": "shopify://shop_images/BAL_MERCH-43_2000x_1_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-fdd3bfd4-6c4f-4e95-8a6d-a18db543683b",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_jDkEWR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_AC644L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.A wandering platform celebrating African excellence and sharing our cultures through design.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_AC644L"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "custom_class": "wandering_body_text",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-fdd3bfd4-6c4f-4e95-8a6d-a18db543683b",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "blog_grid_gallery_EJJgCN": {
+      "type": "blog-grid-gallery",
+      "name": "Image Grid",
+      "settings": {
+        "custom_class": "",
+        "section_color_scheme": "scheme-fdd3bfd4-6c4f-4e95-8a6d-a18db543683b",
+        "image_1": "shopify://shop_images/402b059d-9c89-4451-b0b5-3cdd329984c3_1.png",
+        "image_2": "shopify://shop_images/5cd28c1a-a657-4508-9dea-793e701f13dc_1.png",
+        "image_3": "shopify://shop_images/BAL_MERCH-43_2000x_1_3.png",
+        "image_4": "shopify://shop_images/BAL_MERCH-25_a415de3f-f413-4e40-99cd-8adfe61f408d_1200x_1_5.png",
+        "image_5": "shopify://shop_images/A653F4F4-466A-4A66-AAB8-2CD5EACFD1A5_1_1.png",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_T6QWxh",
+    "featured_collection_Gx7p3J",
+    "rich_text_jj78AN",
+    "image_with_text_pEQPB9",
+    "rich_text_jDkEWR",
+    "blog_grid_gallery_EJJgCN"
+  ]
+}

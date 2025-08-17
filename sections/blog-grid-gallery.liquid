@@ -1,0 +1,106 @@
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+  <div class="page-width">
+<div class="waf-grid-section {% if section.settings.custom_class != blank %}{{ section.settings.custom_class }}{% endif %}">
+  <div class="waf-grid">
+    {% for i in (1..5) %}
+      {% assign image_key = "image_" | append: i %}
+      {% assign img = section.settings[image_key] %}
+      {% if img %}
+        <div class="waf-grid-item">
+          <img src="{{ img | image_url: width: 800 }}" alt="WAF Image {{ i }}" />
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Grid",
+  "settings": [
+      {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
+     {
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Image 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_4",
+      "label": "Image 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_5",
+      "label": "Image 5"
+    },
+     {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+   
+  ],
+  "presets": [
+    {
+      "name": "Image Grid",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
